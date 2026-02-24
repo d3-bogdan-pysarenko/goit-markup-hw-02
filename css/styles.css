@@ -2,6 +2,32 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
 }
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 a {
     text-decoration: none;
     color: currentColor;
@@ -40,4 +66,94 @@ img {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
+}
+
+.header{
+    background: white;
+}
+
+.nav-items a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.address a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero-section{
+    background-color: navy;
+}
+
+.hero-section {
+    background-color: navy;
+}
+.hero-title{
+    color: white;
+}
+.hero-button {
+    background: rgba(77, 90, 229, 100);
+    color: white
+}
+
+#contacts{
+    background: #F4F4FD;
+}
+
+#contacts li{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+    /* box model*/
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
+    width: 264px;
+    height: 380px;
+}
+
+#contacts h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+#contacts p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--slate);
+}
+
+.portfolio-row{}
+
+.card-item{
+    background: white;
+}
+
+#portfolio .card-content{
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+}
+
+.footer{
+    background: #2E2F42;
+}
+
+.footer p {
+    color: #F4F4FD;
 }
