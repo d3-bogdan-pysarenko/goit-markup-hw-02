@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 h2 {
@@ -47,26 +49,9 @@ address {
     font-style: normal;
 }
 
-img {
-    display: block;
-}
-
 /* #endregion */
 
 /* #region Common */
-.visually-hidden,
-.read-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    overflow: hidden;
-}
 
 .header{
     background: white;
@@ -130,16 +115,6 @@ img {
     background: #F4F4FD;
 }
 
-#contacts li{
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
-    /* box model*/
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    width: 264px;
-    height: 380px;
-}
-
 #contacts h3{
     font-weight: 500;
     font-size: 20px;
@@ -158,20 +133,11 @@ img {
     color: var(--slate);
 }
 
-.portfolio-row{}
 
 .card-item{
     background: white;
 }
 
-#portfolio .card-content{
-    border-bottom: 1px solid var(--cornflower);
-    border-left: 1px solid var(--cornflower);
-    border-right: 1px solid var(--cornflower);
-    padding: 32px 16px;
-    width: 360px;
-    height: 120px;
-}
 
 .footer{
     background: #2E2F42;
