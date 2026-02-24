@@ -80,6 +80,15 @@ img {
     color: #2E2F42;
 }
 
+.nav-items a:hover,
+.nav-items a:focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+}
+
 .address a{
     font-weight: 400;
     font-size: 16px;
@@ -88,18 +97,32 @@ img {
     color: #434455;
 }
 
-.hero-section{
-    background-color: navy;
+.address a:hover,
+.address a:focus{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #404BBF;
 }
 
-.hero-section {
-    background-color: navy;
+.hero-section{
+    background-color: #2E2F42;
 }
+
 .hero-title{
     color: white;
 }
 .hero-button {
     background: rgba(77, 90, 229, 100);
+    color: white
+}
+
+.hero-button:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
     color: white
 }
 
