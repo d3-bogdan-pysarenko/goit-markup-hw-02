@@ -41,6 +41,10 @@ h2 {
     color: #2E2F42;
 }
 
+h2.section-title{
+    text-transform: capitalize
+}
+
 h3{
     font-weight: 500;
     font-size: 20px;
@@ -103,13 +107,20 @@ address {
     font-weight: 700;
     }
 
-.nav-items a{
+.nav-link{
     font-weight: 500;
     font-family: var(--font-family);
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+.address-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .nav-items a:hover,
@@ -119,14 +130,6 @@ address {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #404BBF;
-}
-
-.address a{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .address a:hover,
@@ -214,16 +217,17 @@ address {
 
 .footer{
     background: #2E2F42;
+    color: #4d5ae5;
 }
 
-.footer-logo-start{
+.footer-logo-end{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: var(--cloud);
 }
 
 .logo.footer-logo{
@@ -233,7 +237,7 @@ address {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: var(--iris);
 }
 
 .footer .footer-text {
