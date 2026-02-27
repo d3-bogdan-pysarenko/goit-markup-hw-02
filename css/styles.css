@@ -166,27 +166,46 @@ address {
     background-color: #404BBF;
 }
 
-#contacts{
-    background: #F4F4FD;
-}
+/* section 2 (text blocks) */
 
-#contacts h3{
+.cap-text{
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--navy-blue);
 }
 
-#contacts p {
+.text{
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--slate);
 }
+
+#contacts{
+    background: #F4F4FD;
+}
+
+.person{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+
+
+.person-title{
+    text-align: center;
+    text-transform: capitalize
+}
+
+.person-job{
+    text-align: center;
+}
+
+
 
 
 .card-item{
